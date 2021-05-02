@@ -10,4 +10,4 @@ Lessons learned:
 
 activities 1: cant pass list or unwrapped div to return
 
-updated
+currently at: section 8
