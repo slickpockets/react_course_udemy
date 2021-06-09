@@ -1,4 +1,9 @@
 .env
 */01-starting-setup/.eslintcache
 */01-starting-setup/node_modules
-*/node_modules
+*/node_modules/
+node_modules/
+*/node_modules/
+node_modules/*
+section_9/08-finished/node_modules/
+section_8/01-starting-setup/node_modules/
