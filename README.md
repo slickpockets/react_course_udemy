@@ -10,4 +10,5 @@ Lessons learned:
 
 activities 1: cant pass list or unwrapped div to return
 
-currently at: section 8
+currently at: section 9
+
