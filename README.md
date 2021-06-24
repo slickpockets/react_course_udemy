@@ -1,4 +1,1 @@
-Section 10 of udemy course.
-covers:
-	useEffect()
-	useReducer()
+Section 11 udemy course
