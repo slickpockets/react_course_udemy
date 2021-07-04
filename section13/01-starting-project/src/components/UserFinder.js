@@ -25,7 +25,7 @@ class UserFinder extends Component {
       })
     }
 
-    this.setState({ filteredUsers: DUMMY_USERS.filter((user) => user.name.includes(searchTerm))})
+    this.setState({ filteredUsers: DUMMY_USERS.filter((user) => user.name.includes())})
   }
   searchChangeHandler(event) {
     this.setState({
@@ -37,7 +37,7 @@ class UserFinder extends Component {
   render() {
     return (
       <Fragment>
-        <input type='search' onChange={this.searchChangeHandler.bind(this)} />
+        <input className={classes.finder} type='search' onChange={this.searchChangeHandler.bind(this)} />
         <Users users={this.state.filteredUsers} />
       </Fragment>
     );
