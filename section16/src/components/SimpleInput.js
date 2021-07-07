@@ -57,7 +57,6 @@ const SimpleInput = (props) => {
          />
       </div>
       {nameInputHasError && <p className="error-text"> name cant be empty</p>}
-
       <div className={emailInputClasses}>
         <label className={emailInputClasses}>Email</label>
         <input
